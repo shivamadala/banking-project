@@ -1,0 +1,95 @@
+docker exec -it banking-project-kafka-1 kafka-topics --bootstrap-server localhost:9092 --list
+  411  docker exec -it  banking-project-kafka-1 kafka-topics --bootstrap-server localhost:9092 --create --topic ACCOUNT_CREATED --partitions 1 --replication-factor 1
+  412  ipconfig
+  413  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  414  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  415  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  416  docker-compose up -d
+  417  docker ps
+  418  docker start splunk
+  419  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  420  docker ps
+  421  docker logs splunk
+  422  curl -X POST -H "Authorization: Splunk 9cc11a5d-c974-4ed9-9be5-d47c3bc16786"      -d '{"event": "test"}'      http://localhost:8088/services/collector
+  423  curl -X POST -H "Authorization: Splunk 9cc11a5d-c974-4ed9-9be5-d47c3bc16786"      -d '{"event": "Hello Splunk!"}'      http://localhost:8088/services/collector
+  424  netstat -tuln | grep 8088
+  425  netstat -tuln | grep 8088
+  426  curl -k -X POST -H "Authorization: Splunk 9cc11a5d-c974-4ed9-9be5-d47c3bc16786"      -d '{"event": "test"}'      https://localhost:8088/services/collector
+  427   curl -k -X POST -H "Authorization: Splunk 9cc11a5d-c974-4ed9-9be5-d47c3bc16786"      -d '{"event": "test"}'      https://localhost:8088/services/collector
+  428  {"text":"Success","code":0}
+  429  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  430  yarn install
+  431  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  432  curl -k -X POST -H "Authorization: Splunk 9cc11a5d-c974-4ed9-9be5-d47c3bc16786"      -d '{"event": "test"}'      https://localhost:8088/services/collector
+  433  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  434  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  435  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "smadala"}'
+  436  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "2", "name": "smadala"}'
+  437  curl -k -X POST -H "Authorization: Splunk 9cc11a5d-c974-4ed9-9be5-d47c3bc16786"      -d '{"event": "test"}'      https://localhost:8088/services/collector
+  438  docker exec -it banking-project-kafka-1 kafka-topics --bootstrap-server localhost:9092 --list
+  439  pwd
+  440  ls
+  441  ls -a
+  442  readme.md
+  443  vim readme.md
+  444  docker exec -it banking-project-kafka-1 kafka-topics --bootstrap-server localhost:9092 --list
+  445  curl -k -X POST -H "Authorization: Splunk 9cc11a5d-c974-4ed9-9be5-d47c3bc16786"      -d '{"event": "test"}'      https://localhost:8088/services/collector
+  446  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "3", "name": "smadala"}'
+  447  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "3", "name": "smadala"}'
+  448  [200~curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "1", "name": "John Doe"}'
+  449  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "4", "name": "smadala"}'
+  450  npm install dotenv
+  451  clear
+  452  yarn install
+  453  ls
+  454  cd account-service/
+  455  ls
+  456  cd src/
+  457  ls
+  458  cd utils/
+  459  pwd
+  460  ls
+  461  cd ..
+  462  ls
+  463  cd routes/
+  464  ls
+  465  yarn install
+  466  yarn reinstall
+  467  curl -X POST http://localhost:3001/account/create      -H "Content-Type: application/json"      -d '{"id": "44", "name": "smadala"}'
+  468  docker ps
+  469  git status
+  470  git add .
+  471  git commit -m "Set up Splunk integration, resolved router issues, and updated middleware"
+  472  git remote -v
+  473  git push -u origin main
+  474  git branch
+  475  git status
+  476  git add .
+  477  git status
+  478  git add.
+  479  git add .
+  480  git status
+  481  wd
+  482  pwd
+  483  cd ..
+  484  pwd
+  485  cd .
+  486  pwd
+  487  cd ..
+  488  pwd
+  489  git status
+  490  git add .
+  491  git commit -m "Set up Splunk integration, resolved router issues, and updated middleware"
+  492  git push -u origin main
+  493  docker ps
+  494  git pull
+  495  git status
+  496  pwd
+  497  ls
+  498  ls -a
+  499  cd..
+  500  cd ..
+  501  pwd
+  502  ls -a
+  503  git add .
+  504  history
